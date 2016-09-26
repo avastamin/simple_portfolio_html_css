@@ -1,0 +1,45 @@
+header{
+    border-bottom: 3px solid #7d97ad;
+    margin-bottom: 10px;
+}
+.header-content{
+    display: block;
+    overflow: hidden;
+}
+#logo{
+    margin-top: 45px;
+}
+#logo a {
+    min-width: 150px;
+    display: block;
+    position: relative;
+}
+header h1 {
+    color: #2d3c49;
+    text-transform: uppercase;
+    text-align: right;
+}
+header h3 {
+    color: #2d3c49;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#featured-works{
+margin-top: 15px;
+}
+#featured-works h2{
+    color: #7d97ad;
+    font-size: 42px;
+}
+@media screen and (max-width: 760px) {
+    header h1 {
+        font-size: 20px;
+    }
+    header h3 {
+        font-size: 16px;
+    }
+    #featured-works h2{
+        font-size: 24px;
+    }
+}
